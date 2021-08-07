@@ -1,6 +1,53 @@
+.header {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 100;
+}
+
 .header_icon {
   object-fit: contain;
   height: 40px;
   margin-left: 65px;
-  margin-top: 24px;
+}
+
+.header_cent {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: fit-content;
+  height: 30px;
+  padding: 10px;
+  border-radius: 999px;
+  border: 1px solid lightgray;
+}
+
+.header_cent > input {
+  border: none;
+  width: 250px;
+  outline-width: 0;
+  padding: 10px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 80px;
+  width: 20vw;
+}
+
+.header_right-two {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 1000px;
+  padding: 5px;
+  justify-content: space-between;
+  width: 5.8vw;
 }
