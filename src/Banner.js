@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Banner.css';
 import Button from '@material-ui/core/Button';
+import Search from './Search';
 
 function Banner() {
 
@@ -13,7 +14,7 @@ function Banner() {
     return (
         <div className= "banner">
            <div className= "search_date">
-                {search && <h1> Show Date Picker </h1>}
+                {search && <Search />}
                 <Button onClick= {handleClick} className= "search_date-button" variant= "outlined">
                     Search Dates
                 </Button>
