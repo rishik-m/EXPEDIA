@@ -3,6 +3,7 @@
     center center;
   height: 50vh;
   position: relative;
+  margin-top: 36px;
 }
 
 .banner-info {
@@ -30,4 +31,16 @@
 .banner-info > Button:hover {
   color: blueviolet;
   background-color: white;
+}
+
+.search_date-button {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: blueviolet !important;
+}
+
+.search_date {
+  display: flex;
+  flex-direction: column;
 }
