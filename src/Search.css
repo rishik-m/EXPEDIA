@@ -4,3 +4,44 @@
   left: 25%;
   width: 100vw;
 }
+
+.search_feature > h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 559px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 325px;
+}
+
+.search_feature > input {
+  width: 539px;
+  padding: 20px;
+  height: 30px;
+  top: 359px;
+  border: none;
+  position: absolute;
+  left: 0;
+}
+
+.search_feature > input:focus {
+  outline-width: 0;
+}
+
+.search_feature > Button {
+  position: absolute;
+  left: 0;
+  top: 410px;
+  text-transform: inherit !important;
+  background-color: blueviolet;
+  color: white;
+  width: 579px;
+}
+
+.search_feature > Button:hover {
+  color: blueviolet;
+  background-color: white;
+}

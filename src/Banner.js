@@ -8,7 +8,7 @@ function Banner() {
     const [search, setSearch] = useState(false);
 
     function handleClick() {
-        setSearch(true);
+        setSearch(!search);
     }
 
     return (
@@ -16,7 +16,7 @@ function Banner() {
            <div className= "search_date">
                 {search && <Search />}
                 <Button onClick= {handleClick} className= "search_date-button" variant= "outlined">
-                    Search Dates
+                    {search ? "Hide" : "Search Dates"}
                 </Button>
            </div>
            <div className= "banner-info">
