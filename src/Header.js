@@ -4,15 +4,18 @@ import SearchIcon from '@material-ui/icons/Search';
 import LanguageIcon from '@material-ui/icons/Language';
 import ViewHeadlineIcon from '@material-ui/icons/ViewHeadline';
 import { Avatar } from '@material-ui/core';
+import {Link} from 'react-router-dom'
 
 function Header() {
     return (
         <div className= "header">
-            <img
-              className= "header_icon"
-              src= {process.env.PUBLIC_URL + "/logo.png"}
-              alt= "" 
-            />
+            <Link to= "/">
+              <img
+                className= "header_icon"
+                src= {process.env.PUBLIC_URL + "/logo.png"}
+                alt= "" 
+              />
+            </Link>
             <div className= "header_cent">
               <input type= "text" placeholder= "Start your search" />
               <SearchIcon />
