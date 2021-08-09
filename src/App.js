@@ -12,11 +12,11 @@ function App() {
       <Router>
         <Header />
         <Switch>
-            <Route path= "/">
-              <Home />
-            </Route>
             <Route path= "/search">
               <SearchScreen />
+            </Route>
+            <Route path= "/">
+              <Home />
             </Route>
         </Switch>
         <Footer />

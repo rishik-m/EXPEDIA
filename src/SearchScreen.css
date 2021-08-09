@@ -1,0 +1,19 @@
+.search_screen-det {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.search_screen-det > p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.search_screen-det > h1 {
+  margin-bottom: 20px;
+}
+
+.search_screen-det > Button {
+  border-radius: 30px;
+  text-transform: inherit;
+  margin: 5px;
+}
